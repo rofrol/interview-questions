@@ -40,7 +40,8 @@
 - co to jest event loop?
 - jak użyć uzyskać więcej wątków? web workers
 - jak uzyskiwać asynchoniczność w javascript? `callback`, `promise`, `generator`, `async/await`
-- jakieś pytanie o `generator`
+- jak działa `generator`?
+- co to memoize i do czego używamy? Fibonacci sequence
 - różnica między `localStorage` a `sessionStorage`?
 - jak dostać informację że coś się zmieniło w `localStorage`? event
 - co nam daje `websocket`?
@@ -84,6 +85,11 @@
 - co to jest `useState`?
 - po co jest `useEffect`?
 - co to jest hoc?
+
+## misc
+
+- co to są testy end-to-end?
+- co to są testy jednostkowe?
 
 ### DevOps
 
