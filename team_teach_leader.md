@@ -90,6 +90,7 @@
 
 - co to są testy end-to-end?
 - co to są testy jednostkowe?
+- co to jest mobile first? Ekan mobilny i brak hover
 
 ### DevOps
 
