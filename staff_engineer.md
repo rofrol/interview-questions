@@ -10,6 +10,8 @@ Co oprócz REST?
 
 GQL czy używałem
 
+JSON-RPC?
+
 Jak 500 tcpflow?
 
 Jakie urządzenie ma client? user-agent?
