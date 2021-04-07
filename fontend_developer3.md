@@ -35,6 +35,33 @@ this.setState ((state, props) => ({
 }));
 ```
 
+```javascript
+import React, { useState } from "react";
+import ReactDom from "react-dom";
+
+// This is incorrect. Id should be set on on UsersWrapper
+const User = ({ user }) => {
+  return <div key={user.id}>name: {user.name}</div>;
+};
+
+const UsersWrapper = ({ users }) => {
+  return users.map((user) => <User user={user} />);
+};
+
+const App = () => {
+  const initialData = [
+    { name: "Wiesio", id: "1" },
+    { name: "Zdzichu", id: "2" },
+  ];
+};
+
+const [users, setUsers] = useState(initialDAta);
+
+return <UsersWrapper users={users} />;
+
+ReactDom.render(<App />, document.querySelector("#root"));
+```
+
 - zmodyfikowanie stanu rodzica: callback, redux, context, reference
 
 - jak przeciwdziałać render
